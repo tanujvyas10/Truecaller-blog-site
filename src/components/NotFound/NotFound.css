@@ -1,0 +1,31 @@
+
+
+  
+  .NotFound {
+    background-color: #ffffff;
+    margin: auto;
+    height: 70vh;
+    width: 100vw;
+    position: relative;
+    flex-direction: row;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+  }
+
+    .NotFound .Message {
+      text-align: center;
+      font-family: 'Nunito Sans', sans-serif;
+      font-size: 2.5rem;
+      position:absolute;
+      width: 75%;
+    }
+  
+    .NotFound .Message  a {
+    text-decoration: none;
+    color: #4286f4;
+  }
+  
+  .NotFound .Message  a:hover {
+    text-decoration: underline;
+  }

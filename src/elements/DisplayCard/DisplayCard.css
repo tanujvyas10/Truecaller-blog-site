@@ -1,0 +1,36 @@
+.DisplayCard {
+	margin: 10px;
+	border-radius: 10px;
+	overflow: hidden;
+	width: 400px;
+	height: 100px;
+	font-family: Georgia, "Times New Roman", Times, serif;
+	box-shadow: 0px 6px 18px -9px rgba(0, 0, 0, 0.75);
+	cursor: pointer;
+	transition: transform 100ms ease-in;
+	border-top: 7px solid #4286f4;
+}
+.DisplayCard_Intro {
+	text-align: center;
+	color: #1c1919;
+}
+.DisplayCard:hover {
+	transform: scale(1.07);
+}
+.DisplayCard >p:hover {
+	color: #4286f4 !important;
+}
+.DisplayCard > img {
+	object-fit: fill;
+	min-width: 300px;
+	min-height: 200px;
+	width: 100%;
+}
+@media screen and (max-width: 947px) {
+	.DisplayCard {
+		width: 90%;
+		margin-left: 10px;
+		margin-right: 10px;
+		flex-direction: column;
+	}
+}

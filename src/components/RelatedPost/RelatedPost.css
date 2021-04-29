@@ -1,0 +1,48 @@
+
+.RelatedPost {
+
+	align-items: center;
+
+	margin-left: 20px;
+
+	margin-right: 20px;
+
+}
+
+.RelatedPost .Strip {
+
+	background: #373B44;
+
+	background: -webkit-linear-gradient(to right, #4286f4, #373B44);
+
+	background: linear-gradient(to right, #4286f4, #373B44);
+
+	width: 50%;
+
+	margin: auto auto;
+
+	height: 7px;
+
+}
+
+.RelatedPost > h4 {
+
+	color: #383737 !important;
+
+}
+
+.RelatedPost .RelatedPost_section {
+
+	display: flex;
+
+}
+
+@media screen and (max-width: 947px) {
+
+	.RelatedPost .RelatedPost_section {
+
+		flex-direction: column;
+
+	}
+
+}

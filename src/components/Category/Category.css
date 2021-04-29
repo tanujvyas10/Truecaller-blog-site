@@ -1,0 +1,48 @@
+.Category{
+    margin:auto auto;
+    font-family: Georgia, "Times New Roman", Times, serif;
+    color: #1c1919;
+    overflow:hidden;
+    padding-left: 10px;
+}
+
+.Category .Strip{
+   background-color: #000000;
+   width: 90%;
+    height:7px;
+}
+
+.Category > h4{
+    color:#383737 !important;
+}
+.Category > h2{
+    color:#383737 !important;
+}
+
+.Category > .Domains{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.Category .Domains > hr{
+    width: 5px;
+    background-color: #4286f4;
+}
+
+.Category > .Domains > .Sub_category{
+    flex: 0.98;
+}
+
+ .Domains  {
+    margin:10px;
+    border:0px solid black;
+    border-radius: 10px;
+    overflow:hidden;
+    box-shadow: 0px 6px 18px -9px rgba(0,0,0,0.75);
+    cursor: pointer;
+    border-left:7px solid #4286f4;
+}
+
+ .Domains :hover{
+   color:#4286f4;
+}

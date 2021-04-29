@@ -1,0 +1,65 @@
+.Post {
+	display: flex;
+	margin: 10px;
+}
+.Post_section {
+	flex: 0.6;
+	align-self: center;
+	font-family: Georgia, "Times New Roman", Times, serif;
+	color: #878787;
+	max-width: 70vw;
+	margin-left: 30px;
+	margin-right: 10vw;
+}
+.Post_content img {
+	height: auto;
+	max-width: 100%;
+	box-shadow: 0px 6px 18px -9px rgba(0, 0, 0, 0.75);
+	border-radius: 10px;
+	overflow: hidden;
+}
+.Post_content a {
+	text-decoration: none;
+	color: #4286f4;
+}
+.Post_content iframe {
+	max-width: 70vw;
+}
+.Post_content h2,
+.Post_content h3 {
+	color: #4286f4;
+}
+.Post_section > h1 {
+	font-size: 30px;
+	color: #1c1b1b;
+}
+.Post_category {
+	flex: 0.25;
+}
+.Post_section > img {
+	height: auto;
+	width: 50vw;
+	box-shadow: 0px 6px 18px -9px rgba(0, 0, 0, 0.75);
+	border-radius: 10px;
+	overflow: hidden;
+}
+.Post_relatedPost {
+	flex: 1;
+}
+@media screen and (max-width: 847px) {
+	.Post {
+		flex-direction: column;
+	}
+	.Post_section {
+		width: 100%;
+	}
+	.Post_section > img {
+		width: 100%;
+		height: auto;
+		margin-left: 5px;
+		margin-right: 5px;
+		box-shadow: 0px 6px 18px -9px rgba(0, 0, 0, 0.75);
+		border-radius: 10px;
+		overflow: hidden;
+	}
+}

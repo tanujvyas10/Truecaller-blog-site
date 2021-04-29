@@ -1,0 +1,15 @@
+.footer {
+	border-top: 1px solid #4286f4;
+	padding: 20px;
+	font-family: Georgia, "Times New Roman", Times, serif;
+	background-color: #4286f4;
+	bottom: 0;
+	border-radius: 3px;
+	text-align: center;
+}
+.footer > p {
+	padding: 5px;
+	font-size: 14x;
+	font-weight: 600;
+	color: #262626;
+}
